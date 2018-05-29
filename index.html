@@ -5,12 +5,11 @@
   <head>
     <title>RamzCo Restoration</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Concrete Restoration">
     <meta name="keywords" content="HTML,CSS,JavaScript,Web,Developer,Designer">
     <meta name="author" content="Max Marquez">
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <!-- input logo for tabs -->
@@ -21,53 +20,74 @@
   </head>
 
   <body>
-
-    <div class="jumbotron" style="margin-bottom: 0px;">
-      <p><i class="fa fa-phone-square" aria-hidden="true"></i> 480.529.3318</p>
-      <p><i class="fa fa-envelope" aria-hidden="true"></i> info@ramzcorestoration.com</p>
-      <p>Follow us on:
+    <div class="container">
+      <div class="topinfo" style="margin-bottom: 0px;">
+        <p>Follow us on:
         <a href="https://www.facebook.com/RCR180/" target="_blank"><i class="fab fa-facebook-square"></i></a>
         <a href="https://www.instagram.com/ramzco_llc/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
-      </p>
-    </div>
-
-    <header class="header">
-		<h1 class="logo"><a href="#">RamzCo</a></h1>
-      <ul class="main-nav">
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="hiring.html">WE'RE HIRING!</a></li>
-          <li><a href="services.html">SERVICES</a></li>
-          <li><a href="gallery.html">GALLERY</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-      </ul>
-	</header>
-
-    <div class="main">
-      <div > <!-- add background image-->
-        <h1>RamzCo Concrete Restoration</h1>
-        <h3>Concrete Polishing and Coatings</h3>
+        </p>
       </div>
-      <h2>RamzCo LLC. is Arizona's Choice for Concrete Polishing and Restoration.</h2>
-    </div>
 
-    <div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>Services: flooring demolition, corrective grinding, grind and seal, self leveling floors, Stains & Concrete polishing.</p>
-    </div>
+      <nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">RamzCo LLC.</a>
 
-    <aside>
-      <p>RamzCo Concrete Restoration</p>
-      <p>480.529.3318</p>
-      <p>yourname@RamzCoRestoration.com</p>
-      <p>Contact Us!</p>
-    </aside>
+        <div class="collapse navbar-collapse" id="navbarToggler">
+          <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hiring.html">WE'RE HIRING!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">SERVICES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gallery.html">GALLERY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+
+      <div class="main">
+        <div > <!-- add background image-->
+          <h1>RamzCo Concrete Restoration</h1>
+          <h3>Concrete Polishing and Coatings</h3>
+        </div>
+        <h2>RamzCo LLC. is Arizona's Choice for Concrete Polishing and Restoration.</h2>
+      </div>
+
+      <div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p>Services: flooring demolition, corrective grinding, grind and seal, self leveling floors, Stains & Concrete polishing.</p>
+      </div>
+
+      <aside>
+        <button type="button">
+          <a href="contact.html">Contact Us!</a>
+        </button>
+      </aside>
+    </div>
 
     <footer>
-      <p>Website Maintained by Max Marquez</p>
+      <p>Website Maintained by <a href="http://maxmarquez.me/" target="blank">Max Marquez</a></p>
       <p>Copyright RamzCo LLC. 2018</p>
+      <i class="fa fa-phone-square" aria-hidden="true"></i><a href="tel:+1-480-529-3318"> 480.529.3318 </a>
+      <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"> @ramzcorestoration.com </a>
+      <button>
+        <a href="#topButtonTarget">Back to Top</a>
+      </button>
     </footer>
+
   </body>
 
 </html>

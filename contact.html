@@ -21,31 +21,27 @@
 </head>
 
 <body>
-
-  <div class="jumbotron" style="margin-bottom: 0px;">
-    <p>480.529.3318</p>
-    <p>info@ramzcorestoration.com</p>
-    <p>Follow us on: </p>
-    <i class="fab fa-facebook-square"></i>
-    <i class="fab fa-instagram"></i>
+<div class="container">
+  <div class="topinfo" style="margin-bottom: 0px;" id="topButtonTarget">
+    <p>Follow us on:
+    <a href="https://www.facebook.com/RCR180/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+    <a href="https://www.instagram.com/ramzco_llc/?hl=en" target="_blank"><i class="fab fa-instagram"></i></a>
+    </p>
   </div>
 
-  <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
-
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded sticky-top">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <a class="navbar-brand" href="index.html">RamzCo LLC.</a>
 
-    <div class="collapse navbar-collapse" id="collapse_target">
-      <a class="navbar-brand"><img src="RamzCo_Temp.png"></a>
-      <span class="navbar-text">RamzCo Restoration</span>
-      <!-- INSERT LOGO -->
-      <ul class="navbar nav">
-        <li class="nav-item">
-          <a class="nav-link" href="hiring.html">WE'RE HIRING!</a>
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav mr-auto mt-2 mt-md-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html">HOME</a>
+          <a class="nav-link" href="hiring.html">WE'RE HIRING!</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="services.html">SERVICES</a>
@@ -60,43 +56,36 @@
     </div>
   </nav>
 
-  <div class="main">
-    <div> <!-- add background image-->
+
+    <form action="action_page.php">
       <h1>Contact Us</h1>
-      <p></p>
-    </div>
+      <p>Have a question or want to get in touch for your next project? Fill out the form below and we'll get back to you as soon as we can!</p>
+      <p>* indicates a required field</p>
+      <label for="name"></label>
+      <input type="text" id="name" name="name" placeholder="Name">
+
+      <label for="mail"></label>
+      <input type="text" id="mail" name="mail" placeholder="*Email">
+
+      <label for="phone"></label>
+      <input type="text" id="phone" name="phone" placeholder="*Phone">
+
+      <label for="subject"></label>
+      <textarea id="subject" name="subject" placeholder="Tell us a little about your project.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+
+    </form>
   </div>
 
-  <div class="container">
-  <form action="action_page.php">
-
-    <label for="name">Name</label>
-    <input type="text" id="name" name="name" placeholder="Name">
-
-    <label for="mail">*Email</label>
-    <input type="text" id="mail" name="mail" placeholder="Email">
-
-    <label for="phone">*Phone</label>
-    <input type="text" id="phone" name="phone" placeholder="Phone">
-
-    <label for="subject"></label>
-    <textarea id="subject" name="subject" placeholder="Tell us a little about your project.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
-</div>
-
-  <aside>
-    <p>RamzCo Concrete Restoration</p>
-    <p>480.529.3318</p>
-    <p>yourname@RamzCoRestoration.com</p>
-    <p>Contact Us!</p>
-  </aside>
-
   <footer>
-    <p>Website Maintained by Max Marquez</p>
+    <p>Website Maintained by <a href="http://maxmarquez.me/" target="blank">Max Marquez</a></p>
     <p>Copyright RamzCo LLC. 2018</p>
+    <i class="fa fa-phone-square" aria-hidden="true"></i><a href="tel:+1-480-529-3318"> 480.529.3318 </a>
+    <i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:someone@example.com?Subject=Hello%20again" target="_top"> @ramzcorestoration.com </a>
+    <button>
+      <a href="#topButtonTarget">Back to Top</a>
+    </button>
   </footer>
 </body>
 
